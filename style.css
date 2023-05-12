@@ -108,7 +108,7 @@ h3{
 }
 input{
 width: 50%;
-height: 40px;
+height: 55px;
 margin-left: 5px;
 }
 
@@ -266,7 +266,7 @@ h1{
         border: 1px solid rgba(255, 255, 255, 0.18);
         height: 30px;
         display: flex;
-        align-items: center;
+        align-items:center;
 }
 .tsk:hover{
      background-color: greenyellow;
@@ -348,6 +348,12 @@ li{
     background-color: red;
     height: 28px;
     width: 100px;
+}
+.btn12{
+    height: 20px;
+    width: 40px;
+    margin-top: 20px;
+    margin-left: 60px;
 }
 @media screen and (max-width:1100px) {
         .create {
@@ -543,5 +549,15 @@ li{
         .bbtn{
             margin-right: 5px;
             margin-bottom: 5px;
+        }
+        .form1 {
+            background: rgba(246, 246, 244, 0.35);
+            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border-radius: 8px;
+            border: 1px solid rgba(255, 255, 255, 0.18);
+            height:25px;
+
         }
 }
