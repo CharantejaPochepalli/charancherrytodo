@@ -526,15 +526,16 @@ li{
         #edit {
            
             height: 20px;
-            width: 80px;
+            width: 50px;
             margin-bottom: 17px;
         }
     
         #delete {
            
             height: 20px;
-            width: 80px;
+            width: 50px;
             margin-bottom: 15px;
+            margin-left: 2px;
         }
         li {
             
@@ -542,6 +543,7 @@ li{
             margin-top: 15px;
             height: 40px;
             border-radius: 10px;
+            width: 110%;
         }
         .today{
             margin-left: 30%;
